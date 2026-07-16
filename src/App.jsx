@@ -99,7 +99,7 @@ function App() {
 
   const handleImageError = () => {
     if (imageSource.endsWith('profile.jpeg')) {
-      setImageSource('/assets/profile.jpg')
+      console.log("Image Error")
       return
     }
     setImageFailed(true)
