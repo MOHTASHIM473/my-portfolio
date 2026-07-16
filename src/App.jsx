@@ -56,7 +56,7 @@ const initialTerminal = [
 ]
 
 function App() {
-  const [imageSource, setImageSource] = useState('/profile.jpeg')
+  const [imageSource, setImageSource] = useState('/my-portfolio/profile.jpeg')
   const [imageFailed, setImageFailed] = useState(false)
   console.log("Image Failed:", imageFailed)
   const [terminalInput, setTerminalInput] = useState('')
