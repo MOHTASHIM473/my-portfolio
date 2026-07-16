@@ -58,6 +58,7 @@ const initialTerminal = [
 function App() {
   const [imageSource, setImageSource] = useState('/profile.jpeg')
   const [imageFailed, setImageFailed] = useState(false)
+  console.log("Image Failed:", imageFailed)
   const [terminalInput, setTerminalInput] = useState('')
   const [terminalLines, setTerminalLines] = useState(initialTerminal)
   const [pipelinePhase, setPipelinePhase] = useState('idle')
